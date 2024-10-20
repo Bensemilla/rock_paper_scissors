@@ -42,12 +42,6 @@ def main():
 
     restart_choice = input("Do you want to play again? Please type 'y' to restart or 'n' to end the game and hit enter: ")
 
-    while restart_choice != "y" and restart_choice != "n":
-        if restart_choice == "n":
-            break
-        print("Please type 'y' to restart or 'n' to end the game and hit enter: ")
-        restart_choice = input("Do you want to play again?: ")
-
     if restart_choice == "y":
             main()
 
