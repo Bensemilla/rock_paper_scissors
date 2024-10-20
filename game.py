@@ -45,8 +45,10 @@ def main():
     while restart_choice != "y" and restart_choice != "n":
         print("Please type 'y' to restart or 'n' to end the game and hit enter: ")
 
-    if restart_choice == "y":
-        main()
+        if restart_choice == "y":
+            main()
+        else:
+            break
 
 if __name__ == '__main__':
     main()
